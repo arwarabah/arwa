@@ -1,0 +1,16 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="16dp">
+
+    <TextView android:id="@+id/nameTextView" android:text="Welcome, user"
+        android:textSize="18sp" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <CheckBox android:id="@+id/checkboxAgree"
+        android:text="I confirm I have read and agree to use the app."
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btnConfirm" android:text="Continue" android:enabled="false"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>
